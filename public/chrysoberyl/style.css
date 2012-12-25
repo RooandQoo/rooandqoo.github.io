@@ -15,7 +15,6 @@ a:hover { text-decoration: underline; }
 
 #Logo {
 	width: 800px;
-	background-image: url(images/logo.jpg);
 }
 
 #Logo_temp {
@@ -70,10 +69,9 @@ a:hover { text-decoration: underline; }
 }
 
 #methodP {
-	background-image: url(images/nowprinting.gif);
 	width: 200px;
-	height: 284px;
-	margin: 0 auto;
+	height: 280px;
+	margin: 20px auto;
 	clear:both;
 }
 
