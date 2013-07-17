@@ -1,0 +1,2 @@
+module RaqHelper
+end

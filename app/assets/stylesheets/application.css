@@ -11,3 +11,38 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  color: #4f4f4f;
+  font-size: 12px;
+  background-image: url(background.gif):
+}
+
+#mainWrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#Logo {
+  width: 800px;
+  text-align: center;
+}
+
+.navi {
+  width: 800px;
+  height: 30px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navi_item {
+  width: 200px;
+  height: 30px;
+  float: left;
+  background-color: #fffdee;
+  text-align: center;
+}
