@@ -1,5 +1,9 @@
 Dotcom::Application.routes.draw do
   root :to => 'raq#index'
+  match '/profile' => 'raq#profile'
+  match '/works' => 'raq#works'
+  match '/raq' => 'raq#raq'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
