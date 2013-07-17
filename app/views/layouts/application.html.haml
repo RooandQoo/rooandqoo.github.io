@@ -14,11 +14,14 @@
         #Logo
           %img{ :src => "logo.png" }
         %ul.navi
-          %li.navi_item index
-          %li.navi_item profile
-          %li.navi_item works
-          %li.navi_item Roo&Qoo
-          
+          %li.navi_item 
+            =link_to "index", :controller => :raq, :action => :index
+          %li.navi_item
+            =link_to "profile", :controller => :raq, :action => :profile
+          %li.navi_item
+            =link_to "works", :controller => :raq, :action => :works
+          %li.navi_item
+            =link_to "Roo&Qoo", :controller => :raq, :action => :raq
 
         = yield
 
