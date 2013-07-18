@@ -26,6 +26,7 @@ gem 'jquery-rails'
 group :production do
   gem 'pg', '0.11.0'
   gem 'thin'
+  gem 'therubyracer-heroku'
 end
 
 group :develoment do
