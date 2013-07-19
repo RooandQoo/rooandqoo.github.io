@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -24,7 +24,7 @@ end
 gem 'jquery-rails'
 
 group :production do
-  gem 'pg', '0.11.0'
+  gem 'pg'
   gem 'thin'
   gem 'therubyracer-heroku'
 end
