@@ -15,7 +15,7 @@
 body {
   color: #4f4f4f;
   font-size: 12px;
-  background-image: url(background.gif);
+  background-image: url(/assets/background.gif);
 }
 
 #mainWrapper {
@@ -28,26 +28,66 @@ body {
   text-align: center;
 }
 
-.navi {
+#gnavi ul {
   width: 800px;
-  height: 30px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  position: relative;
+  display: block;
+  height: 33px;
+  font-size: 14px;
+  background:url(/assets/bg_navi.png) repeat-x top left;
+  border: 1px solid #000;
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.navi_item {
+#gnavi li {
+  display: block;
   width: 200px;
-  height: 30px;
+  height: 33px;
+  margin: 0;
+  padding: 0;
   float: left;
-  padding-top: 10px;
-  font-size: 16px;
   font-family: 'Julius Sans One', sans-serif;
-  background-color: #deffde;
+}
+
+#gnavi li a {
+  float: left;
+  color: #f7b06e;
+  text-decoration: none;
+  width: 170px;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
   text-align: center;
+}
+
+#gnavi li a:hover,
+#gnavi .active{
+  color: #fff;
+  background:url(/assets/navi_bg.png) repeat-x top left;
+  text-decoration: none;
+}
+
+#gnavi .active a {
+  color: #fff;
+  font-weight: 700;
+}
+
+#gnavi ul {
+  background-color: #629600;
+}
+
+#gnavi li a:hover,
+#gnavi li.active {
+  background-color: #7ab900
+}
+
+#contents {
+  margin: 5px 0;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #9eca3d;
 }
 
 #footer {
