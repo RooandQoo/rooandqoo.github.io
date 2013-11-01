@@ -2,9 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-table, th, td{
+table, th, td {
   border: 1px #333 solid;
   border-collapse: collapse;
+}
+
+th {
+  width: 120px;
+}
+
+td {
+  width: 42%;
 }
 
 #history {
