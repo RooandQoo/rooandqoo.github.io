@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/* --------------------------------------------
+* Reset CSS
+* -------------------------------------------- */
+/* html5doctor.com Reset v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* --------------------------------------------
+* clearfix
+* -------------------------------------------- */
+.clearfix { width:100%; }
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* --------------------------------------------
+* common style
+* -------------------------------------------- */
+html,body {
+	height: 100%;
+}
+body {
+	font-size: 13px;
+	line-height: 1.6em;
+	background: #fff url(../images/bg-cover2_backup_cutpx.png) no-repeat fixed 50% 5%;
+	background-size: auto auto;
+	position: relative;
+}
+
+a { text-decoration: none; }
+a:link { color: #ff2b2b; }
+a:visited { color: #ff2b2b; }
+a:hover { color: #ff8000; }
+a:active { color: #ff8000; }
+
+.page-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 850px;
+	min-height: 100%;
+	background: url(../images/bg-raq-tile.png);
+	z-index: 999;
+}
+.button-top {
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+/* header */
+.header-wrap {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	background: url(../images/bg-head-opacity.png) repeat-x;
+}
+.header-wrap .header-control {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 7px;
+}
+.header-wrap .header-logo {
+	float: left;
+}
+.header-wrap .gnavi {
+	float: right;
+}
+.gnavi ul {
+	list-style-type: none;
+}
+.gnavi ul li {
+	float: left;
+	width: 110px;
+}
+
+/* page body */
+.page-body {
+	width: 850px;
+	margin: 0px auto 50px;
+}
+.page-body .page-content-wrap {
+	width: 100%;
+	margin-top: 600px;
+	padding-top: 150px;
+	position: relative;
+}
+.page-body .page-title {
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.page-body .page-content {
+	width: 100%;
+	padding: 10px;
+	background: rgba(255,255,255,0.8);
+	border: 2px solid #c3437c;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.page-body .button-next {
+	margin: 10px 0 250px;
+  display: table-cell;
+  display: table-cell;
+}
+
+.footer-wrap {
+	width: 100%;
+	text-align: center;
+	padding: 5px 0;
+	background: #89BA29;
+}
+
+/* page-top-logo */
+.page-body .page-content-logo {
+	position: relative;
+}
+.page-body .page-content-logo img {
+	margin-top: 145px;
+}
+.page-body .social-area {
+	position: absolute;
+	top: 120px;
+	left: -40px;
+}
+
+/* page-about */
+.page-about-image {
+	position: relative;
+	width: 850px;
+	height: 443px;
+	background:url(../images/bg-about.png) no-repeat;
+}
+.page-about-image-buffer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 850px;
+	height: 300px;
+	background: url(../images/bg-image-buffer.gif);
+	z-index: 99;
+}
+
+/*
+ * page-member
+*/
+#member .page-content {
+	padding-left: 20px;
+}
+#member .page-member-list ul {
+	list-style-type: none;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+#member .page-member-list ul li {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+#member .page-member-list ul li p {
+	text-align: center;
+  line-height: 26px;
+	font-size: 100%;
+}
+#member .page-member-list ul li p a {
+	font-weight: bold;
+}
+
+#member .page-member-list ul li p img {
+  vertical-align: sub;
+}
