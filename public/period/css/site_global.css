@@ -167,6 +167,22 @@ a.nontext /* used to override default properties of 'a' tag */
 	float: left;
 }
 
+.order_description
+{
+  font-size: 14px;
+  padding: 20px 15px 10px 15px;
+  background: #fff;
+  opacity: 0.8;
+}
+.order
+{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0 15px 0;
+  background: #fff;
+  opacity: 0.8;
+}
+
 .clearfix:after /* force a container to fit around floated items */
 {
 	content: "\0020";

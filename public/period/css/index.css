@@ -1080,6 +1080,14 @@ html
 	left: 50px;
 }
 
+#pu282
+{
+	z-index: 234;
+	width: 794px;
+	position: relative;
+	margin-right: -10000px;
+}
+
 #u343
 {
 	z-index: 234;
