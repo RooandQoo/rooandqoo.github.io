@@ -2,6 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h2 {
+  background: #cedfc1;
+  border-bottom: 7px solid #5d9732;
+  padding: .8em .9em .3em;
+}
+
+h3 {
+  border-left:7px solid #4a7828;
+  border-bottom:1px dashed #4a7828;
+  padding:.6em .8em
+}
+
 table, th, td {
   border: 1px #333 solid;
   border-collapse: collapse;
@@ -13,6 +25,24 @@ th {
 
 td {
   width: 42%;
+}
+
+.content {
+  padding: 0 0 0 .8em;
+}
+
+#social ul {
+  display: block;
+  padding: 10px auto;
+  height: 40px;
+  vertical-align: middle;
+}
+
+#social li {
+  display: block;
+  float: left;
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 #history {
