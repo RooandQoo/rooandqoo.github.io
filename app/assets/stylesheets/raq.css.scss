@@ -14,9 +14,14 @@ h3 {
   padding:.6em .8em
 }
 
-table, th, td {
-  border: 1px #333 solid;
+#profile table, th, td {
+  border: 1px #4a7828 solid;
   border-collapse: collapse;
+  text-align: center;
+}
+
+.row_borderless tr, th, td{
+  border-style: dotted none;
 }
 
 th {
@@ -29,6 +34,10 @@ td {
 
 .content {
   padding: 0 0 0 .8em;
+}
+
+.character {
+  width: 250px;
 }
 
 #social ul {
