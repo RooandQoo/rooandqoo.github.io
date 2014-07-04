@@ -1,0 +1,184 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin:0;padding:0;
+}
+
+p {
+  margin: 0 0 20px 0;
+  line-height: 25px;
+  text-align: left;
+}
+
+#wrapper {
+  z-index: 3;
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+#background {
+  z-index: 1;
+  display: block;
+  height: 0px;
+  width: 0px;
+}
+
+#bg01 {
+  width: 1440px;
+  height: 900px;
+  background: url(bg01.jpg) no-repeat center top fixed;
+}
+
+#bg02 {
+  width: 1440px;
+  height: 1100px;
+  background: url(bg02.jpg) no-repeat center top fixed;
+}
+
+#bg03 {
+  width: 1440px;
+  height: 900px;
+  background: url(bg03.jpg) no-repeat center top fixed;
+}
+
+#bg04 {
+  width: 1440px;
+  height: 900px;
+  background: url(bg04.jpg) no-repeat center top fixed;
+}
+
+#bg05 {
+  width: 1440px;
+  height: 900px;
+  background: url(bg05.jpg) no-repeat center top fixed;
+}
+
+#bg06 {
+  width: 1440px;
+  height: 900px;
+  background: url(bg06.jpg) no-repeat center top fixed;
+}
+
+.clearfix {
+  display: block;
+}
+
+/*
+ * Top
+ */
+#top {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+
+#top h1 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 450px;
+  height: 120px;
+  text-indent: -9999px;
+  background: url(logo.png) no-repeat left top;
+}
+
+/*
+ * Introduction
+ * */
+#introduction {
+  position: relative;
+  height: 900px;
+  margin: 150px;
+}
+
+#introduction h1 {
+  text-align: center;
+}
+
+.intro {
+  width: 800px;
+  text-align: center;
+}
+
+.intro p {
+  margin: 0 0 20px 0;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.info {
+  text-align: center;
+}
+
+/*
+ * Songs
+ * */
+#songs {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  margin: 200px 0 0 100px;
+}
+
+#songs h1 {
+  margin-left: 100px;
+  color: white;
+}
+
+img.songs {
+  position: absolute;
+  top: 120px;
+  width: 800px;
+}
+
+/*
+ * PV
+ * */
+#pv {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+
+#pv h1 {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+/*
+ * Staff
+ * */
+#staff {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+
+/*
+ * Link
+ * */
+#link {
+  position: relative;
+  width: 1440px;
+}
+
+
+/*
+ * Others
+ * */
+.left { float: left; }
+.right { float: right; }
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+  font-size: 0.1em;
+  line-height: 0;
+  overflow: hidden;
+}
+
