@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrysoberyl -Roo&Qoo Collection-</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv='Content-type' content='text/html;charset=UTF-8' />
+    <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+          $(".ttip").tooltip({ effect: 'slide'});
+          // initialize tooltip
+          $("#dyna img[title]").tooltip({
+            // use single tooltip element for all tips
+            tip: '#dynatip',
+            // tweak the position
+            offset: [10, 2],
+            // use "slide" effect
+            effect: 'slide'
+            // add dynamic plugin
+          }).dynamic( {
+          // customized configuration on bottom edge
+            bottom: {
+              // slide downwards
+              direction: 'down',
+              // bounce back when closed
+              bounce: true
+            }
+          });
+        });
+    </script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>!function(d,s,id){
+      var js,fjs=d.getElementsByTagName(s)[0];
+      if(!d.getElementById(id)){
+        js=d.createElement(s);
+        js.id=id;
+        js.src="//platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js,fjs);
+        }
+      }(document,"script","twitter-wjs");
+    </script>
+    <div id="mainWrapper">
+
+      <div id="Logo">
+        <img src="images/logo.png" alt="cover" width="800">
+      </div>
+      <div style="text-align:right;">
+        <div class="fb-like" data-href="http://rooandqoo.com/chrysoberyl/index.html" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true">
+        </div>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="RooandQoo" data-lang="ja">ツイート</a>
+     </div>
+      <div class="contentWrapper">
+        <div class="contentTitle">
+          <span class="titleText">Intro</span>
+        </div>
+        <div class="contentBody">
+          <p style="margin:0;padding:10px 10px 0px 20px;line-height:2em;">
+          ルーアンドクーが本になった！<br />
+          るーく(<a href="http://twitter.com/RooandQoo" target="blank">@RooandQoo</a>)のアイコンでお馴染みの緑色の双子、
+          ルーアンドクーのイラスト集がついに登場。キャラ紹介も付属し、読み応え抜群の一冊！
+          </p>
+        </div>
+        <div class="borderBottom"></div>
+      </div>
+
+      <div class="contentWrapper">
+        <div class="contentTitle">
+          <span class="titleText">Details</span>
+        </div>
+        <div class="contentBody">
+          <div>
+            <div id="detailsL">
+              <div id="methodP">
+                <img src="images/cover_sample.jpg" alt="cover" width="200" height="280">
+              </div>
+              <div id="details_infomation">
+                <table id="table_details">
+                  <tr>
+                    <td class="table_head"><strong>仕様</strong></td>
+                    <td class="table_content">A5版 / 24P</td>
+                  </tr>
+                  <tr>
+                    <td class="table_head"><strong>価格</strong></td>
+                    <td class="table_content">500 yen(イベント・手渡し価格)<br />
+                    600 yen(通信販売)</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div id="detailsR">
+              <div style="margin-top:65px">
+                <div id="bookTitle">
+                  <p style="font-family: 'Julius Sans One', sans-serif;">Chrysoberyl -Roo&Qoo Collection-</p>
+                </div>
+                <p style="line-height:2em;">
+                ルーアンドクー、まさかの書籍化！
+                16人のイラストレーター＋るーく本人によるイラストと、ルーアンドクーことるー子とくー子のキャラ紹介を収録。
+                愛くるしいルーアンドクーの魅力が余すところなく詰まっています。ぜひお手に取り下さい。
+                </p>
+                <div id="cover">
+                  表紙イラスト：ナツメサク(@ntm39)
+                </div>
+                <div style="margin-top:20px">
+                  2013年1月27日発行予定<br />
+                  <a href="https://rooandqoo.stores.jp/#!/items/50f7b0fa56ea700bec0003e6" target="blank">ご購入はこちら</a><br />
+                  またはtwitter:<a href="http://twitter.com/RooandQoo" target="blank">@RooandQoo</a>まで直接お声がけください。
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="borderBottom"></div>
+      </div>
+
+      <div class="contentWrapper">
+        <div class="contentTitle">
+          <span class="titleText">Members & Samples</span>
+        </div>
+        <div class="contentBody">
+          <div id="entry">
+
+            <div class="mList">
+              <a class="ttip"><img src="images/01_rooandqoo.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2952430801/505209fc3987e6361aa84e7fa8768890_bigger.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">るーく</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/RooandQoo">@RooandQoo</a></td></tr>
+                    <tr><td class="label"><a href="http://rooandqoo.com">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/02_tetosk.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2751102766/9dbc57f91f7f5c90eda1a4846c6bf115_reasonably_small.jpeg" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">てと</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/tetos_k">@tetos_k</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/03_esk37.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2931228570/069f1506f1c2983c409628c7d514cd07_reasonably_small.png" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">esk37</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/esk37">@esk37</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/04_tomopo.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2931266083/a0e7816651ac037a41d673c6242d05cd_reasonably_small.png" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">ともぽ</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/temetemetomo">@temetemetomo</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/05_calicoto.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2643910165/6dbbb98f56ea56fbacbd68d0eadd8e0d_reasonably_small.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">十恵</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/calicoto">@calicoto</a></td></tr>
+                    <tr><td class="label"><a href="http://saraca12.tumblr.com/">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/06_uduki.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2923708373/b00828b128e7f83caf3648771be43f2f_reasonably_small.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">早坂ウヅキッコ</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/udukikko">@udukikko</a></td></tr>
+                    <tr><td class="label"><a href="http://pm321.boo.jp/">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/07_rin.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2939685493/99435ecc8293f1bc94481af60576ef88_bigger.png" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">りんつー</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/rin2rin">@rin2rin</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/08_strfrt.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2793110801/10f93ea59cde391f8d660096898004db_bigger.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">ごれんし</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/strfrt">@strfrt</a></td></tr>
+                    <tr><td class="label"><a href="http://www.pixiv.net/member.php?id=2223959">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/09_nora.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2962418322/b9b64732d15d78daa9eeb96f6aaad5b1_bigger.png" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">のらぼ</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/nora_volvox">@nora_volvox</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/10_shikiharu.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2963633105/3fff26ad10c559d11c0ec8f52744482c_bigger.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">一色ハルキ</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/shikiharu">@shikiharu</a></td></tr>
+                    <tr><td class="label"><a href="http://siki.s2.pf-x.net/">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/11_mee.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/1666185387/__.gif" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">影山真紀子</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/mee_chang_xxx">@mee_chang_xxx</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/12_metroe.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2647768862/e6d3a967e2d76ac16710d1f3df46e3aa.jpeg" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">りー</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/metro_electro">@metro_electro</a></td></tr>
+                    <tr><td class="label"><a href="http://www.pixiv.net/member.php?id=170792">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/13_cink.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2281001472/7o1skr10izcbb49ulxsx_bigger.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">シンク</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/cink">@cink</a></td></tr>
+                    <tr><td class="label"><a href="http://a-b-x.sakura.ne.jp/">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/14_cokkuri.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2717233715/c746027dae0171a6c563043ee9cc84e0.jpeg" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">こっくりさん</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/Cokkuri3">@Cokkuri3</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/15_aki.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2950475872/46254536a4d1600c0a70ae73165e33a2_bigger.png" alt="icon" >
+                <div style="margin-top:15px;">
+                  <table>
+                    <tr><td class="label">斉藤アキ</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/upfordead">@upfordead</a></td></tr>
+                    <tr><td class="label"><a href="http://tricolor.applemaniax.com/">URL</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/16_hnh.png"></a>
+              <div class="tooltip">
+                <div style="margin-top:35px;">
+                  <table>
+                    <tr><td class="label">HNH</td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="mList">
+              <a class="ttip"><img src="images/00_ntm39.png"></a>
+              <div class="tooltip">
+                <img src="https://si0.twimg.com/profile_images/2951623769/3ee6b44373b09a763da3fbfd62e329d8_bigger.png" alt="icon" >
+                <div style="margin-top:25px;">
+                  <table>
+                    <tr><td class="label">ナツメサク</td></tr>
+                    <tr><td class="label"><a href="https://twitter.com/ntm39">@ntm39</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div style="clear:both;"></div>
+
+            <div class="other">
+              <span class="oName">
+                Webサイト&nbsp;：&nbsp;たかま&nbsp;(&nbsp;<a href="https://twitter.com/takamaer">@takamaer</a>&nbsp;)&nbsp;<br />
+                ロゴ・ブックデザイン&nbsp;：&nbsp;ヒトマス モドル&nbsp;(&nbsp;<a href="https://twitter.com/00unit">@00unit</a>&nbsp;)&nbsp;
+                <a href="http://zuzu.velvet.jp/oounion/">00union</a>
+              </span>
+            </div>
+
+            <div style="clear:both;"></div>
+          </div>
+        </div>
+        <div class="borderBottom"></div>
+      </div>
+
+      <div class="contentWrapper">
+        <div class="contentTitle"><span class="titleText">Links</span></div>
+        <div class="contentBody">
+          <div id="links">
+            <p style="font-family: 'Julius Sans One', sans-serif;">
+            <a href="http://rooandqoo.com" target="blank">RooandQoo.com</a><br /><br />
+            <a href="http://gallery.rooandqoo.com/" target="blank">Roo&Qoo Gallery</a>
+            </p>
+          </div>
+        </div>
+        <div class="borderBottom"></div>
+      </div>
+
+
+    </div><!-- WrapperEnd -->
+    <div id="footer">Copyright (C) RooandQoo All Rights Reserved. </div>
+
+  </body>
+</html>
