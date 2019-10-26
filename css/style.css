@@ -61,6 +61,9 @@ section {
   display: flex;
   margin-bottom: 15px; }
   section img.section-image {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
     width: 45%; }
   section .about {
     margin-top: 10px;
