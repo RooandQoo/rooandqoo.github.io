@@ -77,8 +77,7 @@ section {
       position: relative;
       flex-wrap: wrap; }
       section img.section-image {
-        width: 100%;
-        height: auto; }
+        width: 100%; }
       section .about {
         text-align: left;
         margin: 0;
