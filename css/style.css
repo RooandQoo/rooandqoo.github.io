@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1vw;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  margin: 0 auto;
+  font-family: "M PLUS 1p";
+  color: white;
+  overflow-x: hidden;
+  background: #272726; }
+
+a {
+  text-decoration: none;
+  color: lawngreen; }
+
+header {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0; }
+  header h1 {
+    font-size: x-large; }
+  @media screen and (max-width: 768px) {
+    header {
+      justify-content: flex-start;
+      padding-left: 30px; } }
+
+footer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0; }
+  @media screen and (max-width: 768px) {
+    footer {
+      justify-content: flex-end;
+      padding-right: 30px; } }
+
+main {
+  display: block;
+  width: 60%;
+  margin: 20px auto; }
+  main p.intro {
+    padding: 10px 5%; }
+  @media screen and (max-width: 768px) {
+    main {
+      width: 100%; } }
+
+section {
+  display: flex;
+  margin-bottom: 15px; }
+  section img.section-image {
+    width: 45%; }
+  section .about {
+    margin-top: 10px;
+    text-align: right;
+    width: 100%; }
+  section h1 {
+    font-size: xx-large; }
+  section h4 {
+    font-size: smaller; }
+  section p {
+    margin: 25px 0; }
+  @media screen and (max-width: 768px) {
+    section {
+      position: relative;
+      flex-wrap: wrap; }
+      section img.section-image {
+        width: 100%; }
+      section .about {
+        text-align: left;
+        margin: 0;
+        padding: 5px 5%; } }
