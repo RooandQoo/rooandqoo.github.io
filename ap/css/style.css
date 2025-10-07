@@ -1,0 +1,353 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: #3a9747;
+  --accent-color: #eb6d56;
+  --sub-green: #9ec73a;
+  --sub-orange: #f3984f;
+}
+
+img {
+  object-fit: contain;
+}
+
+hr {
+  border: none;
+  text-align: center;
+  height: 1px;
+  width: 100%;
+  background: gray;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.outfit {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  background: #f5f5f5;
+  margin: 0 auto;
+  letter-spacing: 1.2px;
+  color: #8b4e18;
+  overflow-x: hidden;
+}
+
+.main-contents {
+  display: block;
+  position: relative;
+  width: 70vw;
+  margin: 80px auto 0 auto;
+}
+.main-contents img.img-main {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .main-contents {
+    width: 100vw;
+    margin: 0;
+  }
+  .main-contents img.img-main {
+    margin-top: 20vh;
+  }
+}
+
+.introduction {
+  width: 100%;
+  margin-top: 10vh;
+}
+.introduction img.img-catchcopy {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.introduction .intro-body {
+  display: flex;
+  margin-top: 10vh;
+  justify-content: space-evenly;
+}
+.introduction .intro-body .intro-left {
+  width: 50%;
+}
+.introduction .intro-body .intro-left h1 {
+  font-size: xx-large;
+}
+.introduction .intro-body .intro-left h2 {
+  font-size: x-large;
+}
+.introduction .intro-body .intro-left h3 {
+  font-size: large;
+  font-weight: bold;
+}
+.introduction .intro-body .intro-left p.desc {
+  margin: 30px 0;
+}
+.introduction .intro-body .intro-left a {
+  display: block;
+  background: var(--main-color);
+  color: white;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.introduction .intro-body .intro-left a:hover {
+  background: white;
+  color: var(--main-color);
+  border: 2px solid white;
+}
+.introduction .intro-body .intro-right {
+  width: 40%;
+}
+.introduction .intro-body .intro-right img.img-door {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .introduction img.img-catchcopy {
+    display: block;
+    width: 94%;
+    margin: 0 auto 5vh auto;
+  }
+  .introduction .intro-body {
+    width: 94%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .introduction .intro-body .intro-left {
+    width: 100%;
+  }
+  .introduction .intro-body .intro-right {
+    width: 100%;
+  }
+}
+
+h1.section-head {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 12vh;
+  margin-bottom: 6vh;
+}
+@media (max-width: 768px) {
+  h1.section-head {
+    font-size: 2rem;
+  }
+}
+
+.tracklist .tracklist-body {
+  width: 33vw;
+  margin: 5vh auto;
+}
+.tracklist .tracklist-body .track {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: 800;
+  margin: 8px 0;
+}
+.tracklist .tracklist-body .track .num {
+  border-radius: 50%;
+  padding: 7px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  flex-grow: 0;
+}
+.tracklist .tracklist-body .track .odd {
+  background-color: #eb6d56;
+}
+.tracklist .tracklist-body .track .even {
+  background-color: #3a9747;
+}
+.tracklist .tracklist-body .track .artist {
+  margin-left: 20px;
+  flex-grow: 0;
+}
+.tracklist .tracklist-body .track .title {
+  text-align: right;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+.tracklist .tracklist-body .track .title-odd {
+  color: #eb6d56;
+}
+.tracklist .tracklist-body .track .title-even {
+  color: #3a9747;
+}
+.tracklist .tracklist-body .track img.img-track-ic {
+  height: 25px;
+}
+@media (max-width: 768px) {
+  .tracklist .tracklist-body {
+    width: 94%;
+  }
+  .tracklist .tracklist-body .track .num {
+    width: 20px;
+    height: 20px;
+    font-size: medium;
+  }
+  .tracklist .tracklist-body .track .artist {
+    margin-left: 12px;
+  }
+  .tracklist .tracklist-body .track .title {
+    margin-right: 12px;
+  }
+  .tracklist .tracklist-body .track img.img-track-ic {
+    height: 20px;
+  }
+}
+
+.demo {
+  margin-top: 50px;
+}
+
+.youtube {
+  position: relative;
+  width: 90%;
+  height: 35.4375vw;
+  margin: 30px auto;
+  z-index: 2;
+}
+@media (max-width: 768px) {
+  .youtube {
+    height: 50.625vw;
+  }
+}
+
+.shop {
+  position: relative;
+  margin: 0 auto;
+}
+.shop h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .shop h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.shops {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.shops a {
+  display: block;
+  background: var(--main-color);
+  color: white;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  width: 20%;
+  margin: 10px 0;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.shops a:hover {
+  background: white;
+  color: var(--main-color);
+  border: 2px solid white;
+}
+.shops a.dummy {
+  visibility: hidden;
+}
+.shops .inactive {
+  pointer-events: none;
+  opacity: 0.7;
+}
+@media (max-width: 768px) {
+  .shops {
+    flex-direction: column;
+    padding: 4vw 0;
+  }
+  .shops a {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+.staff {
+  text-align: center;
+  margin-bottom: 6vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.staff h1 {
+  width: 100%;
+  margin-bottom: 4vh;
+}
+.staff h2 {
+  width: fit-content;
+  color: white;
+  margin: 20px auto 10px auto;
+  font-size: x-large;
+  font-weight: 700;
+}
+.staff h3 {
+  width: fit-content;
+  color: var(--main-color);
+  margin: 0 auto;
+  padding: 2px 10px;
+}
+.staff a {
+  color: white;
+  padding: 2px 10px;
+  font-family: "Outfit";
+}
+.staff .p-orange {
+  color: #eb6d56;
+}
+.staff .p-green {
+  color: #3a9747;
+}
+.staff .person {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .staff {
+    position: relative;
+    width: 100%;
+  }
+}
+
+footer {
+  position: relative;
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  background-color: #EFE7D4;
+  justify-content: center;
+  align-items: center;
+}
+footer .copyright {
+  text-align: center;
+}
+footer .copyright p {
+  font-weight: 900;
+  padding: 10px 0;
+}
